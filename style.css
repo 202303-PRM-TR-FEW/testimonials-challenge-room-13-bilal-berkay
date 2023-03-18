@@ -1,0 +1,45 @@
+.cards{
+    background-color: brown;
+    border: 2px solid gray;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+            "1 1 2 3"
+            "1 1 2 3"
+            "4 5 5 3"
+            "4 5 5 3";
+}
+
+.card-1 {
+
+    background: purple;
+    grid-area: "1" ;
+}
+
+
+.card-2 {
+    background: purple;
+    grid-area: '2';
+    border: 2px solid black;
+
+}
+
+
+.card-3 {
+    grid-area: "3";
+    border: 2px solid black;
+}
+
+
+.card-4 {
+    grid-area: "4";
+    border: 2px solid black;
+}
+
+.card-5 {
+    grid-area: "5";
+    border: 2px solid black;
+}
+
