@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap');
 
 body {
     margin: 0;
@@ -11,46 +11,9 @@ img {
     border-radius: 50%;
 }
 
-.x {
-    display: flex;
-    gap: .5rem;
-}
-
-.color-bg {
-    color: hsl(210, 46%, 95%);
-    font-weight: 500;
-    line-height: 1.5;
-    opacity: 0.7;
-}
-
-.pale-bg {
-    color: black;
-    font-weight: 600;
-    line-height: 1.5;
-    opacity: 0.7;
-}
-
-h3 {
-    color: hsl(0, 0%, 81%);
-}
-
-.h3-black {
-    color: black;
-    opacity: 0.7;
-}
-
-.h2-black {
-    color: black;
-    opacity: 0.7;
-}
-
-h2 {
-    font-size: 28px;
-}
-
 .cards {
     margin: auto;
-    margin-top: 4%;
+    margin-top: 8vh;
     max-width: 1440px;
     display: grid;
     gap: 30px;
@@ -67,7 +30,8 @@ h2 {
     background-color: hsl(263, 55%, 52%);
     background-image: url("/images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: 500px top;
+    background-size: 150px;
+    background-position: 470px top;
     color: white;
     padding: 1em;
 }
@@ -113,4 +77,56 @@ h2 {
     background-color: hsl(219, 29%, 14%);
     color: white;
     padding: 1em;
+}
+
+.name-holder {
+    display: flex;
+    align-items: center;
+}
+
+.job,
+.name {
+    padding-left: 20px;
+}
+
+.color-bg {
+    color: hsl(210, 46%, 95%);
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.pale-bg {
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+
+.thinner {
+    font-weight: 400;
+}
+
+.thinner-2 {
+    font-weight: 500;
+}
+
+.name-color {
+    color: hsl(0, 0%, 81%);
+    font-weight: 600;
+}
+
+.name-color-black {
+    color: black;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.h2-black {
+    color: black;
+    opacity: 0.7;
+}
+
+h2 {
+    font-size: 28px;
 }
